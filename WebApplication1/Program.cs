@@ -11,7 +11,6 @@ internal class Program
         var connectionBuilder = new SqlConnectionStringBuilder(builder.Configuration.GetConnectionString("CNNSTR"));
 
         var connection = connectionBuilder.ConnectionString;
-        //var connection = "SERVER=.\\SQLEXPRESS01;DATABASE=P6SHOPPING;INTEGRATED SECURITY=TRUE;User Id=;Password=;";
 
         builder.Services.AddDbContext<P6SHOPPINGContext>(options => options.UseSqlServer(connection));
 
