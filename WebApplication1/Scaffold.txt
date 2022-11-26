@@ -1,1 +1,1 @@
-﻿Scaffold-DbContext -f "SERVER=.\SQLEXPRESS01;DATABASE=P6SHOPPING;INTEGRATED SECURITY=TRUE;User Id=;Password=;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+﻿Scaffold-DbContext -f "SERVER=JORGE\SQLEXPRESS;DATABASE=JORGE\SQLEXPRESS;INTEGRATED SECURITY=TRUE;User Id=;Password=;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
